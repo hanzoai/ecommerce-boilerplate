@@ -1,1 +1,1 @@
-# reneekelly-alphietreats
+# ecommerce boilerplate
