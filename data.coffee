@@ -146,7 +146,7 @@ module.exports =
             {
               '@type': 'WebsiteMenu'
               name: 'Support'
-              url: 'https://docs.hanzo.io/discuss'
+              url: ''
             }
             {
               '@type': 'WebsiteMenu'
@@ -229,6 +229,70 @@ module.exports =
         }
       ]
       menuCollections: [
+        {
+          '@type': 'WebsiteMenuCollection'
+          menus: [
+            {
+              '@type': 'WebsiteMenu'
+              name: 'Menu 1'
+              links: [
+                {
+                  '@type': 'WebsiteMenuLink'
+                  name: 'Link 1'
+                  description: 'This is Link 1'
+                  # image: '/img/test-rocket.svg'
+                  url: ''
+                }
+                {
+                  '@type': 'WebsiteMenuLink'
+                  name: 'Link 2'
+                  description: 'This is Link 2'
+                  # image: '/img/test-rocket.svg'
+                  url: ''
+                }
+                {
+                  '@type': 'WebsiteMenuLink'
+                  name: 'Link 3'
+                  description: 'This is Link 3'
+                  # image: '/img/test-rocket.svg'
+                  url: ''
+                }
+              ]
+            }
+          ]
+        }
+        {
+          '@type': 'WebsiteMenuCollection'
+          menus: [
+            {
+              '@type': 'WebsiteMenu'
+              name: 'Menu 2'
+              links: [
+                {
+                  '@type': 'WebsiteMenuLink'
+                  name: 'Link 1'
+                  description: 'This is Link 1'
+                  # image: '/img/test-rocket.svg'
+                  url: ''
+                }
+                {
+                  '@type': 'WebsiteMenuLink'
+                  name: 'Link 2'
+                  description: 'This is Link 2'
+                  # image: '/img/test-rocket.svg'
+                  url: ''
+                }
+                {
+                  '@type': 'WebsiteMenuLink'
+                  name: 'Link 3'
+                  description: 'This is Link 3'
+                  # image: '/img/test-rocket.svg'
+                  url: ''
+                }
+              ]
+            }
+          ]
+        }
         # {
         #   '@type': 'WebsiteMenuCollection'
         #   menus: [
@@ -327,26 +391,26 @@ module.exports =
         #     }
         #   ]
         # }
-        # {
-        #   '@type': 'WebsiteMenuCollection'
-        #   menus: [
-        #     {
-        #       '@type': 'WebsiteMenu'
-        #       name: 'Pricing'
-        #       url: '#'
-        #     }
-        #   ]
-        # }
-        # {
-        #   '@type': 'WebsiteMenuCollection'
-        #   menus: [
-        #     {
-        #       '@type': 'WebsiteMenu'
-        #       name: 'Support'
-        #       url: 'https://docs.hanzo.io/discuss'
-        #     }
-        #   ]
-        # }
+        {
+          '@type': 'WebsiteMenuCollection'
+          menus: [
+            {
+              '@type': 'WebsiteMenu'
+              name: 'Support'
+              url: ''
+            }
+          ]
+        }
+        {
+          '@type': 'WebsiteMenuCollection'
+          menus: [
+            {
+              '@type': 'WebsiteMenu'
+              name: 'Call to Action'
+              url: '/'
+            }
+          ]
+        }
         # {
         #   '@type': 'WebsiteMenuCollection'
         #   menus: [

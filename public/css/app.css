@@ -687,11 +687,23 @@ footer .footer-small-print .copyright{
 .fade-on-hover:hover{
   opacity:0.6;
 }
-header *{
-  color:#424242;
+header{
+  background-color:#212121;
+}
+header:before{
+  background-color:#212121;
+}
+header .nav *{
+  color:#fff;
+}
+header .menu-bodies *{
+  color:#000;
 }
 footer{
   background-color:#424242;
+}
+footer *{
+  color:#fff;
 }
 @media only screen and (min-width: 1001px){
   header,
